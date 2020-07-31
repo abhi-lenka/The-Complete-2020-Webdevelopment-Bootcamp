@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+hr {
+  border-color: #EAF6F6;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  /* em, 100% = 16px , rem ignores the previous applied font sizes in the parent elements*/
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+div {
+  padding: 20px;
+}
+
+.sub-title {
+  font-weight: normal;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+
+.skill-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.contact-me-button {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 7px;
+  background-color: #11999E;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contact-me-button:hover {
+  background: #137176;
+  border: solid rgba(21, 129, 94, 0.51) 1px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  text-decoration: none;
+}
+
+.footer-link {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin: auto 20px 25px 20px;
+  font-size: 15px;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+.copyright {
+  margin-top: 30px;
+  color: #EAF6F6;
+}
